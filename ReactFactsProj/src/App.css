@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  margin: 0;
+  font-family: 'Big-Shoulders-Stencil';
+  background-color: #21222A;
+  
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.react-listh{
+  padding-left: 30px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.Heading{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  padding-left: 30px;
+}
+.react-list > li{
+  padding-block: 10px;
+}
+.react-list > li::marker{
+  color: #61DAFB;
+  font-size: 2.0rem;
+}
+.react-list{
+  padding-left: 20px;
+  color: white;
+  font-size: 1.5rem;
+}
+header{
+  background-color: #282D35;
+  height: 91px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+img{
+  padding-left: 10px;
+  height: 40px;
 }
-
-.card {
-  padding: 2em;
+.title{
+  padding-left: 10px;
+  color: #61DAFB; 
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: -5%;
+  font-size: 1.3rem;
 }
-
-.read-the-docs {
-  color: #888;
+.Main{
+    padding: 60px 30px;
+    background-image: url(https://img.icons8.com/?size=100&id=eXYS9lpSOpd5&format=png&color=000000);
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }

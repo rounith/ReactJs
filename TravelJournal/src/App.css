@@ -1,0 +1,77 @@
+header {
+  background-color: #F55A4A;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  height: 55px;
+}
+
+header>h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+img {
+  height: 168px;
+  width: 125px;
+}
+
+:root {
+  font-family: Inter;
+}
+
+.country {
+  font-weight: 400;
+  font-size: 10.24px;
+  letter-spacing: 2px;
+  margin-right: 5px;
+}
+
+.link {
+  color: #918E9B;
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.monument {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 10.24px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.country-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.monument-info {
+  padding-left: 10px;
+}
+
+.image-container {
+  width: 125px;
+height: 168px;
+border-radius: 5px;
+  overflow: hidden;
+
+}
